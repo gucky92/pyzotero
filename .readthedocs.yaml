@@ -16,6 +16,10 @@ python:
     - method: pip
       path: .
 
+formats:
+   - pdf
+   - epub
+
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
   configuration: doc/conf.py
